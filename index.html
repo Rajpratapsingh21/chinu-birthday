@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#100d27" />
+  <title>Chinu's Universe ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="star-field" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <main>
+    <!-- INTRO -->
+    <section class="intro screen" id="intro">
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="intro-content reveal visible">
+        <span class="eyebrow">A little universe, made for someone special</span>
+        <div class="planet">✦</div>
+        <h1>ENTER <span>CHINU'S</span><br>UNIVERSE</h1>
+        <p>Some people make the world brighter just by being in it.</p>
+        <button class="primary-btn" id="enterBtn">Enter the universe <span>↗</span></button>
+        <small>Best experienced with sound on ♡</small>
+      </div>
+      <div class="scroll-hint">A universe is waiting for you <span>↓</span></div>
+    </section>
+
+    <!-- MAIN EXPERIENCE -->
+    <div id="experience" class="experience hidden">
+      <nav class="nav">
+        <a class="brand" href="#home">✦ CHINU'S UNIVERSE</a>
+        <div class="nav-links">
+          <a href="#about">Her magic</a><a href="#memories">Memories</a><a href="#letter">A letter</a>
+        </div>
+        <button class="sound-btn" id="soundBtn" aria-label="Toggle music">♫ <span>Music off</span></button>
+      </nav>
+
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <span class="eyebrow">31 October · A day worth celebrating</span>
+          <h2>Today, the universe<br>celebrates <em>you.</em></h2>
+          <p class="lead">Happy Birthday, Chinu! May your days be as lovely as your smile and your world as beautiful as your heart.</p>
+          <a class="text-link" href="#about">Discover your little universe <span>↓</span></a>
+        </div>
+        <div class="hero-art reveal">
+          <div class="halo"></div><div class="moon">☾</div>
+          <div class="floating-star star-a">✦</div><div class="floating-star star-b">✧</div>
+          <div class="birthday-orb"><span>HAPPY</span><strong>Birthday</strong><span>CHINU ♡</span></div>
+          <div class="orbit-label label-one">kind heart</div><div class="orbit-label label-two">bright soul</div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading reveal">
+          <span class="eyebrow">A little introduction</span>
+          <h2>The girl who makes<br>ordinary days <em>special.</em></h2>
+          <p>There is a little bit of magic in the way you are.</p>
+        </div>
+        <div class="quality-grid">
+          <article class="quality-card reveal"><span class="card-icon">♡</span><h3>A caring heart</h3><p>Always ready to help someone. Your kindness says more than words ever could.</p></article>
+          <article class="quality-card reveal"><span class="card-icon">☀</span><h3>A lovely smile</h3><p>Your smile and those expressive eyes have a way of making a moment brighter.</p></article>
+          <article class="quality-card reveal"><span class="card-icon">☄</span><h3>Funny & full of life</h3><p>You bring laughter, little surprises and your own special energy wherever you go.</p></article>
+          <article class="quality-card reveal"><span class="card-icon">✦</span><h3>Loyal by heart</h3><p>You value your people deeply. That little possessive streak just shows how much friendship means to you.</p></article>
+        </div>
+        <p class="tiny-note reveal">And yes… the quick-to-get-annoyed Chinu is part of the charm too. 😄</p>
+      </section>
+
+      <section class="quote-band">
+        <span class="quote-star">✧</span>
+        <p class="reveal">“Some people don't need to do anything extraordinary.<br>Being themselves is already something special.”</p>
+        <span class="quote-star">✧</span>
+      </section>
+
+      <section class="section memory-section" id="memories">
+        <div class="section-heading reveal">
+          <span class="eyebrow">Little moments, lasting smiles</span>
+          <h2>Our story began<br><em>unexpectedly.</em></h2>
+          <p>And somehow, that made it even more memorable.</p>
+        </div>
+        <div class="story-card reveal">
+          <div class="story-number">01 <span>— THE BEGINNING</span></div>
+          <div>
+            <h3>We didn't plan this friendship.</h3>
+            <p>We became friends in the most unexpected way — while participating together in something neither of us probably imagined would lead to a friendship. Funny how life introduces some lovely people without giving us a warning.</p>
+          </div>
+        </div>
+        <div class="story-card movie-card reveal">
+          <div class="story-number">02 <span>— THE MOVIE DAY</span></div>
+          <div>
+            <h3>And then came our movie plan. 🍿</h3>
+            <p>Just a few days later, we went to watch a movie together. We enjoyed so much, and seeing you that happy made the day even better. It's one of those simple memories that deserves a permanent place in the heart.</p>
+          </div>
+        </div>
+        <div class="memory-end reveal">Here's to more random plans, more laughter and more beautiful memories. ✨</div>
+      </section>
+
+      <section class="section gallery-section" id="gallery">
+        <div class="section-heading reveal">
+          <span class="eyebrow">A few frames of you</span>
+          <h2>Little pieces of<br><em>Chinu's magic.</em></h2>
+          <p>Add your favourite four photos here.</p>
+        </div>
+        <div class="photo-grid">
+          <figure class="photo-card reveal"><img src="photo1.jpg" alt="Chinu photo 1" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>✧</span><b>Her lovely smile</b><small>Add photo1.jpg</small></div><figcaption>A little view, a lovely memory ♡</figcaption></figure>
+          <figure class="photo-card reveal"><img src="photo2.jpg" alt="Chinu photo 2" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>☾</span><b>A little sunshine</b><small>Add photo2.jpg</small></div><figcaption>That beautiful smile</figcaption></figure>
+          <figure class="photo-card reveal"><img src="photo3.jpg" alt="Chinu photo 3" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>✦</span><b>Beautiful memories</b><small>Add photo3.jpg</small></div><figcaption>A little Chinu magic</figcaption></figure>
+          <figure class="photo-card reveal"><img src="photo4.jpg" alt="Chinu photo 4" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'"><div class="photo-placeholder"><span>♡</span><b>One of a kind</b><small>Add photo4.jpg</small></div><figcaption>A frame to remember</figcaption></figure>
+        </div>
+      </section>
+
+      <section class="section wishes-section">
+        <div class="section-heading reveal">
+          <span class="eyebrow">A wish from the heart</span>
+          <h2>May life give you<br><em>the loveliest things.</em></h2>
+        </div>
+        <div class="wish-panel reveal">
+          <div class="wish-icon">✧</div>
+          <p>May your life always have reasons to smile, people who understand you, dreams that excite you and adventures that make your heart happy. Keep being that caring, funny, loyal and wonderfully unpredictable person.</p>
+          <p>May you travel to beautiful places, enjoy countless cricket moments, discover songs that become memories and collect happiness in every little thing.</p>
+          <strong>Never stop being your lovely self, Chinu. ♡</strong>
+        </div>
+      </section>
+
+      <section class="section letter-section" id="letter">
+        <div class="letter-wrap reveal">
+          <span class="eyebrow">A little note, just for you</span>
+          <div class="letter">
+            <div class="letter-top">✦ &nbsp; TO CHINU &nbsp; ✦</div>
+            <h2>Dear Chinu,</h2>
+            <p>Who knew that an unexpected participation would introduce us to a friend like you? From becoming friends out of nowhere to going for a movie just a few days later, our beginning was definitely one of a kind.</p>
+            <p>You are cute, caring, funny, helpful and wonderfully loyal. You may get angry quickly, and you may want your friends all to yourself sometimes, but those little things make your personality uniquely yours. Never lose the kindness with which you help people or the smile that makes moments brighter.</p>
+            <p>I hope this new year of your life brings you endless happiness, exciting journeys, good music, thrilling cricket matches and people who make you feel as valued as you are.</p>
+            <p>Thank you for being a lovely part of this journey. Here's to more movies, random plans and memories we haven't made yet.</p>
+            <p class="letter-sign">Stay happy. Stay amazing.<br><span>Happy Birthday, Chinu! ❤️</span></p>
+            <div class="letter-bottom">MADE WITH WARM WISHES · JUST FOR YOU</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="finale section">
+        <div class="finale-stars">✦　✧　⋆　✧　✦</div>
+        <span class="eyebrow">One last thing...</span>
+        <h2>Keep shining,<br><em>Chinu.</em></h2>
+        <p>The world is a little brighter with you in it.</p>
+        <button class="primary-btn" id="surpriseBtn">Make a birthday wish <span>✧</span></button>
+        <div class="surprise-message hidden" id="surpriseMessage">May every little wish find its way to you. Happy Birthday! 🎂💜</div>
+        <div class="finale-stars">♡　✧　♡</div>
+      </section>
+      <footer>Crafted with care for Chinu <span>✦</span> Happy Birthday!</footer>
+    </div>
+  </main>
+
+  <audio id="bgMusic" src="music.mp3" loop preload="none"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
